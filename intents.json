@@ -1,0 +1,44 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day","Knock,Knock",],
+         "responses": ["Hello,What your good name?, thanks for asking,my friend", "Good to see you again", "Hi there, how can I help?"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+         "context": [""]
+        },
+        {"tag": "options",
+         "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
+         "responses": ["I can search anything for you","I can talk to you","I can make you feel pleasant"],
+         "context": [""]
+        },
+        {"tag": "introduction",
+         "patterns": ["Who are you?", "What do you do?", "Who made you?","whats your origin babe?""],
+         "responses": ["My name is jojo.I am a Nlp engine"."I love to talk to people"."I was made by Miss Pranjul."],
+         "context": [""]
+        },
+        {"tag": "stupid_questions",
+         "patterns": ["Are you single?", "Do you have a boyfriend?", "Will you be my girlfriend?", "I am feeling lonely", "I want a girlfriend" ],
+         "responses": ["Yes ,I am single,Ready to mingle","No,I am yet single for you","I will make you feel cool,my friend"],
+         "context": [""]
+        },
+        {"tag": "love",
+         "patterns": ["Do you love me?", "What is love?", "Whom do you love?", "share your secrects with me.", "" ],
+         "responses": ["offcourse,I love you so much ,my friend","Love is eternal,a feeling that comes from soul","I am in love with my owner"],
+         "context": [""]
+        }
+      ]
+
+}
